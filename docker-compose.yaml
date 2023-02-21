@@ -1,0 +1,15 @@
+version: '3.3'
+
+services:
+
+  hammond:
+    image: akhilrex/hammond
+    container_name: hammond
+    volumes:
+      - ./app/config:/config
+      - ./app/data:/assets
+    ports:
+      - "8200:3000"
+    restart: unless-stopped
+
+    
