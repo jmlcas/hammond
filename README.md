@@ -1,6 +1,3 @@
-# hammond
-Hammond - Gastos coches - Docker compose
+# Hammond
 
-Ver en "localhost:8200"
-
-
+Ver en "http://localhost:8200"
