@@ -1,9 +1,7 @@
-version: '3.3'
-
 services:
 
   hammond:
-    image: akhilrex/hammond
+    image: akhilrex/hammond:latest
     container_name: hammond
     volumes:
       - ./app/config:/config
@@ -11,5 +9,4 @@ services:
     ports:
       - "8200:3000"
     restart: unless-stopped
-
     
